@@ -98,7 +98,7 @@ class Interpreter(object):
     def expr(self):
         self.current_token = self.get_next_token()
 
-        result = self.current_token
+        result = self.new_item()
         while self.current_token.type is (PLUS, MINUS, MULTIPLY, DIVIDE):
             op = self.current_token    
             if op.type == PLUS:
