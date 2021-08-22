@@ -1,4 +1,4 @@
-# we are rebuilding the previous version from scratch by memory, to make sure we understand everything
+# we are rebuilding the previous version from scratch by memory, to make sure we understand everything 
 PLUS, MINUS, INTEGER, EOF = "PLUS", "MINUS", "INTEGER", "EOF";
 
 class Tokenizer (object) :
